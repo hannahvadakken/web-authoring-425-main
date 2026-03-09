@@ -1,0 +1,171 @@
+body{
+    color:rgb(66, 75, 85);
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+h1, h2, h3, p {
+    padding: 0px 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    padding: 70px 30px 0px 30px;
+}
+
+h1, h2{
+    color: darkcyan;
+
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.wrapper{
+
+    width: 972px;
+    padding: 36px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+a{
+    color:rgb(18, 136, 209);
+}
+
+a:hover{
+    color:darkcyan;
+}
+
+header{
+    background-color: darkcyan;
+}
+
+nav{
+    
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-row-gap: 10px;
+    justify-items: center;
+    align-items: start;
+    justify-content: space-between;
+    text-align:center;
+
+}
+
+nav > a {
+    color:aliceblue;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 130%;
+    text-align: center;
+}
+
+nav > a:hover {
+    color: white;
+}
+
+.site-logo-image{
+    display: inline;
+    width: 75px;
+
+}
+
+.site-header{
+    margin-bottom: 5px;
+}
+.sitenav{
+    width: 30%;
+}
+
+.sitenav > a{
+    padding-top: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 80px;
+    justify-items: center;
+    align-items: start;
+    justify-content: space-between;
+    text-align:center;
+    
+}
+
+.gallery-item{
+    height: 250px;
+    
+}
+
+.gallery-item > img {
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px gray;
+}
+
+
+
+table{
+    margin:auto;
+    width: 90%;
+}
+
+
+table > td, th{
+    padding: 10px 20px;
+}
+
+.subheading{
+    font-size: 70%;
+}
+
+i{
+    font-size: 150%;
+}
+
+.insitenav{
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.insitenav > a{
+    font-weight: bold;
+    color: darkcyan;
+    padding: 15px;
+
+}
+
+.insitenav > a:hover{
+    color:rgb(78, 178, 240);
+    text-decoration: underline;
+}
+
+.abt-photo, .abt-photo > img{
+    width: 200px;
+    border-radius: 15px;
+}
+
+.abt-text{
+    flex: 1;
+}
+
+.abt-sect{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.perfume-pics{
+    width: 700px;
+}
