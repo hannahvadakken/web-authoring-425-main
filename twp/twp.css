@@ -73,7 +73,6 @@ nav > a:hover {
 
 .site-logo-image{
     display: inline;
-    width: 75px;
 
 }
 
@@ -81,13 +80,16 @@ nav > a:hover {
     margin-bottom: 5px;
 }
 .sitenav{
-    width: 30%;
+    width: 35%;
 }
 
-.sitenav > a{
-    padding-top: 10px;
+.not-logo{
+    margin-top: 20px;
 }
 
+.site-logo{
+    margin-top: 0px;
+}
 .gallery{
     display: grid;
     grid-template-columns: auto auto auto;
